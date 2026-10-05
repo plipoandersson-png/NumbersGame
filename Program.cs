@@ -52,6 +52,7 @@ namespace NumbersGame
             if(guess == correctNumber)
             {
                 Console.WriteLine("Wohoo! Du klarade det!\n");
+                Environment.Exit(0);
             }
             else if (guess > correctNumber)
             {
